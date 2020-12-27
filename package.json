@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=https://zh421.github.io/angular-practice/dist/tiny-world",
+    "build": "ng build --base-href=https://zh421.github.io/angular-practice/dist/tiny-world/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

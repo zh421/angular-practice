@@ -1,0 +1,25 @@
+<div class="bg">
+  <div class="title">
+    <div class="text_bc">OUR TEAM
+      <div class="title_text">師資團隊</div>
+    </div>
+  </div>
+  <div class="page">
+    <div class="line">
+      <div class="pageBlock">1/5</div>
+    </div>
+  </div>
+  <div class="role">
+    <div class="left">
+      <app-side-card [personData]= "leftMemDat"></app-side-card>
+    </div>
+    <div class="cside">
+      <div class="arror" (click)="this.infoChange('left')"><</div>
+      <app-c-card [personData]= "cenMemDat"></app-c-card>
+      <div class="arror" (click)="this.infoChange('right')">></div>
+    </div>
+    <div class="right">
+      <app-side-card [personData]= "rightMemDat"></app-side-card>
+    </div>
+  </div>
+</div>

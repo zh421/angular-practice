@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>form-bu works!</p>\n<p>data1: {{this.data1}}</p>\n<button (click)=\"this.addData1()\">增加data1</button>\n<p>data2: {{this.data2}}</p>\n<button (click)=\"this.addData2()\" (change)=\"this.mm()\">增加data2</button>\n<p>相乘結果:{{this.mm()}}</p>\n<p>{{mm2()}}</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<p>form-bu works!</p>\n<p>data1: {{this.data1}}</p>\n<button (click)=\"this.addData1()\">增加data1</button>\n<p>data2: {{this.data2}}</p>\n<button (click)=\"this.addData2()\" (change)=\"this.mm()\">增加data2</button>\n<p>相乘結果:{{this.mm()}}</p>\n<p>{{mm2()}}</p>\n<a routerLink=\"card\">按我</a>\n");
 
 /***/ }),
 
